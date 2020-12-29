@@ -1,7 +1,7 @@
 import urllib3 as u
 import csv
 
-"""url = "http://10.20.154.53:7070/"
+"""url = "http://**.**.***.**:****/"
 http = u.PoolManager()
 r = http.request('GET',url)
 print (r.status)
@@ -11,7 +11,7 @@ print (r.status)
 
 def checkport (port):
   
-    add = "http://10.20.154.39:"+port+"/"
+    add = "http://**.**.***.**:"+port+"/"
     statu = ""
     try:
         http = u.PoolManager().request('POST', add)
