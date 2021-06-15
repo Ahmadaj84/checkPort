@@ -22,12 +22,12 @@ def checkport (port):
     return statu
 
 temp = []
-with open('C:\\Users\\ajifry\\Desktop\\portsOf39.csv') as csv_file:
+with open('C:\\****\\******\\*******\\portsOf39.csv') as csv_file:
     csv_reader = csv.reader(csv_file, delimiter=',')    
     for row in csv_reader:
         print (row[0],checkport(row[0]))
         temp.append((row[0],checkport(row[0])))
-with open('C:\\Users\\ajifry\\Desktop\\portsOf39x.csv', 'w') as csv_file:
+with open('C:\\****\\******\\*******\\portsOf39x.csv', 'w') as csv_file:
     csv.writer(csv_file).writerows(temp)
     
 print ('End of the file')
